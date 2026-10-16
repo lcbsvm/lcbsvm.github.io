@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------------------
+
+ＩＮＤＥＸのスタイルです
+----------------------------------------------*/
+
+
+/*index メイン部分*/
+
+
+#slider {
+clear:both;
+width:980px;
+height:330px;
+margin:10px auto 0 auto;
+padding:0;
+}
+#slideshow_container {
+width:980px;
+height:300px;
+}
+
+#mainArea {
+	clear:both;
+	width:980px;
+	height:100%;
+	padding:10px 0;
+	margin:10px 0 0 0;
+	text-align:left;
+	overflow:hidden;
+	display:block;
+}
+h2 {
+	margin:0;
+	font-weight:bold;
+	font-size:1.4em;
+	color:#fff;
+}
+
+h3 {
+	margin:0;
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+h4 {
+	margin:0 0 10px 0;
+	padding:0;	
+}
+
+
+#mainLeft {
+	width:641px;
+	margin:0 0 20px 0;
+	padding:0 0 0 3px;
+	float:left;
+}
+
+#mainLeft p {
+	width:289px;
+	line-height:1.7em;	
+}
+
+#h2Recom {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+#mainLeftBack {
+	background: #FFFFFF;
+	padding: 0;
+	margin: 0 0 20px 0;
+	float: left;
+	width: 641px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);	}
+
+#mainLeftL {
+	width: 292px;
+	height: auto;
+	margin: 15px 0 2px 15px;
+	padding: 0;
+	float: left;
+}
+
+#mainLeftL a:hover, #mainLeftR a:hover {
+	text-decoration:none;
+	}
+	
+.h3Musium {
+width:292px;
+height:190px;
+display:block;
+}
+
+#mainLeftR {
+	width: 292px;
+	height: auto;
+	margin: 15px 15px 2px 0;
+	padding: 0;
+	float: right;
+}
+
+
+
+#h2InfoRight {
+background:url(../img/h2_info_right.jpg) no-repeat left top;
+width:113px;
+height:37px;
+display:block;
+text-indent:-9999px;
+float:right;
+}
+
+#h2InfoRight:hover {
+background-position:left -37px !important;
+}
+
+#infoLeftBack{
+	background: #FFFFFF;
+	padding: 15px;
+	margin: 0px;
+	float: left;
+	width: 614px;
+	}
+.infolist {
+	background: #FFFFFF;
+	margin: 5px 0 0 0;
+	float: left;
+	width: 641px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+	}
+	
+.infolist dl {
+	padding:20px 15px 5px 15px;
+	list-style:none;
+	text-align:left;	
+}
+.infolist dt {
+	clear:left;
+	float:left;
+	width:100px;
+	margin:0 0 13px 0;
+	padding:0;
+	}
+.infolist dd {
+	padding:0;
+	margin:0 0 13px 110px;
+	line-height:1.6em;
+	
+}
+
+#mainRight {
+	width: 306px;
+	float: right;
+	margin: 0 3px 0 26px;
+	padding: 0;
+}
+
+#h4concept {
+	width:306px;
+	height:184px;
+	padding:0 0 5px 0;
+	display:block;
+}
+
+.linkbox {
+	background:#FFF;
+	width:306px;
+	padding:0 0 5px 0;
+	margin:15px 0 0 0;
+	display:block;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+}
+.bana01, .bana02, .bana03 {
+	line-height:1.5em;
+	}
+.banabox {
+	
+	}
+.banabox img {
+	margin:0 0 0 0;
+	}
+
+.paddingR10	{
+	padding:10px;
+	}
+
+		
+
+.paddingTB {
+	padding:5px 0 0 0;
+	}
+
+.bordernone {
+	border:none;
+	}
+	
+/*index メイン部分	*/	

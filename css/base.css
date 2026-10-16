@@ -1,0 +1,460 @@
+@charset "utf-8";
+/* CSS Document */
+/*-------------------------
+　基本設定
+---------------------------*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, p, blockquote, table, th, td {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	color: #000;
+	background: url(../images/index/bg_body.png) repeat;
+}
+body {
+	font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	background: url(../images/index/headtop_paperback.png) left top repeat-x;
+	border-top: #9C8C6A solid 5px;
+	height: 22px;
+}
+* html body {
+	font-size: small;
+}
+*:first-child+html body {
+	font-size: small;
+}
+img {
+	border: 0;
+	vertical-align: top;
+}
+/*
+h1,h2,h3,h4,h5,h6 {
+	clear: both; font-size: 100%;
+	font-weight: normal;
+	}
+*/
+ul, dl, ol {
+	text-indent: 0;
+}
+li {
+	list-style: none;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+strong {
+	font-weight: bold;
+}
+a {
+	color: #4F80C2;
+	text-decoration: underline;
+}
+a:hover {
+	color: #a1c4d7;
+	text-decoration: underline;
+}
+.clear {
+	clear: both;
+}
+.floatleft {
+	float: left;
+}
+.floatright {
+	float: right;
+}
+.null {
+	display: none;
+}
+.fontcolor_red {
+	color: #F00;
+}
+.textstlg {
+	font-weight: bold;
+}
+.txt12 {
+	font-size: 0.857em;
+}
+.marginT5 {
+	margin-top: 5px;
+}
+.marginT80 {
+	margin-top: 80px;
+}
+.marginTB8020 {
+	margin: 80px 0 20px 0;
+}
+.marginT20 {
+	margin-top: 20px;
+}
+.marginTR20 {
+	margin: 20px 10px 0 0;
+}
+.marginL30 {
+	margin-left: 30px;
+}
+.marginTB20 {
+	margin: 20px 0;
+}
+.marginTBR20 {
+	margin: 20px 20px 20px 0;
+}
+.marginB20 {
+	margin: 0 0 20px 0;
+}
+.marginTB5 {
+	margin: 5px 0;
+}
+.blueArrow {
+	background: url(../images/index/arrow.jpg) no-repeat left 4px;
+	padding: 0 0 0 20px;
+}
+.blueArrow2 {
+	background: url(../images/index/arrow.jpg) no-repeat left top;
+	padding: 0 0 0 20px;
+}
+/*-------------------------
+　画像ホワイトロールオーバ
+---------------------------*/
+a:hover.rollover img {
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+#Contentslider {
+	clear: both;
+	width: 980px;
+	margin: 10px auto 0 auto;
+	padding: 0;
+}
+/*　△基本設定ここまで */
+/*-------------------------
+　レイアウト
+---------------------------*/
+/*---------------　　共通部分　ヘッダー　--------------*/
+#Wrapper {
+	margin: 0 auto;
+	width: 980px;
+}
+#header {
+	margin: 0 auto;
+	padding: 0;
+	width: 980px;
+}
+#hedtop {
+	padding: 5px;
+	color: #000;
+	font-size: 0.857em;
+}
+h1 {
+	width: 555px;
+	height: 37px;
+	margin: 20px 0 0 0;
+	padding: 0;
+	float: left;
+}
+#headRight {
+	width: 420px;
+	float: right;
+	margin: 16px 0 0 0;
+	text-align: right;
+	color: #fff;
+	padding: 0;
+	background: url(../images/index/header_right.png) bottom no-repeat;
+}
+#headRight2 {
+	width: 420px;
+	float: right;
+	margin: 10px 0 0 0;
+	text-align: right;
+	color: #fff;
+	padding: 0;
+	background: url(../images/index/header_right.png) bottom no-repeat;
+}
+.h_box {
+    width:420px; height:20px;
+}
+#fontArea {
+	float: left;
+	text-align: left;
+	background: url(../images/index/header_right.png) #F00;
+	width: 420px;
+	height: 23px;
+	padding: 10px 0 0 0;
+}
+#fontChange {
+	margin: 0;
+	padding: 0;
+}
+#fontChange dt {
+	color: #666;
+	margin: 3px 0 0 20px;
+	padding: 0;
+	float: left;
+}
+#fontChange dd {
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+	float: left;
+}
+#fontMinas, #fontPlus {
+	width: 18px;
+	height: 18px;
+	display: block;
+}
+#fontMinas {
+	background: url(../images/index/minus.jpg) no-repeat left center;
+	margin: 0 0 0 15px;
+}
+#fontPlus {
+	background: url(../images/index/plus.jpg) no-repeat left center;
+	margin: 0 0 0 29px;
+}
+#searchArea {
+	height: 20px;
+	margin: 0;
+	float: right;
+	width: 230px;
+}
+.searchInput {
+	width: 140px;
+}
+/*　グローバルナビ　*/
+#hednavi {
+	clear: both;
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 15px;
+	overflow: hidden;
+}
+#gloNavi {
+	width: 980px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#gloNavi li {
+	list-style: none;
+	height: 50px;
+	float: left;
+	display: inline;
+	text-indent: -9999px;
+	margin: 0;
+	padding: 0;
+}
+#gloNavi a {
+	height: 50px;
+	display: block;
+}
+#gloNavitop {
+	width: 245px;
+	background-image: url(../images/index/glo_top.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#gloNaviconcept {
+	width: 245px;
+	background-image: url(../images/index/glo_concept.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#gloNaviworklist {
+	width: 245px;
+	background-image: url(../images/index/glo_worklist.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#gloNavilink {
+	width: 245px;
+	background-image: url(../images/index/glo_link.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#gloNavitop:hover, #gloNaviconcept:hover, #gloNaviworklist:hover, #gloNavilink:hover {
+	background-position: left -50px;
+}
+.gloOn {
+	background-position: left -50px !important;
+}
+/*---------------　　共通部分　フッター　--------------*/
+#footergototop {
+	clear: both;
+	margin: 0 auto;
+	width: 980px;
+}
+.pageTop {
+	clear: both;
+	width: 95px;
+	height: 26px;
+	display: block;
+	float: right;
+	margin: 10px 0px 0px 0;
+	z-index: 9999;
+}
+#footer {
+	clear: both;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	background: url(../images/index/footer_bar.gif) repeat;
+}
+#footerWrapper {
+	margin: 0 auto;
+	color: #363133;
+}
+#footerBody {
+	margin: 0 auto;
+	padding: 15px 0 0 0;
+	width: 980px;
+}
+#footer a {
+	color: #363133;
+}
+#footer a:hover {
+	text-decoration: none;
+}
+#footerLeft {
+	float: left;
+	width: 240px;
+	margin: 200px 0 0 14px;
+	font-size: 16px;
+	font-weight: bold;
+}
+#footerBoxL {
+	float: left;
+	width: 520px;
+	color: #363133;
+	padding: 0;
+}
+#footerBoxL p {
+	font-size: 12px;
+}
+#footerBoxL dl {
+}
+#footerBoxL dt {
+	margin: 10px 0;
+}
+#footerBoxL dd {
+	background: url(../images/index/arrow.jpg) left center no-repeat;
+	display: inline;
+	line-height: 2em;
+	margin: 10px 20px 10px 10px;
+	padding: 0 0 0 17px;
+	font-size: 12px;
+}
+#footerBoxL dd a:link {
+	color: #363133;
+	text-decoration: underline;
+}
+#footerBoxL dd a:hover {
+	color: #363133;
+	text-decoration: none;
+}
+#footerBoxR {
+	float: right;
+	width: 300px;
+	margin: 5px 0 10px 0;
+	min-height: 57px;
+	color: #363133;
+	padding: 15px 80px 15px 15px;
+	background: url(../images/index/footer01.png) right bottom no-repeat #F2F2F2;
+	font-size: 12px;
+	line-height: 1.2em;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.copyright {
+	text-align: center;
+	margin: 20px 0 0 0;
+	padding: 5px 0;
+	color: #363133;
+	clear: both;
+	margin: 0 auto;
+	background: url(../images/index/footer_pattern.png) repeat-x #E3D8BB;
+	border-bottom: #9C8C6A solid 5px;
+}
+.title {
+	font-weight: bold;
+	color: #FFF;
+	margin: 0 0 8px 0;
+}
+/*---------------　　パンくず　--------------*/
+/*
+#pankuzu {
+	clear:both;
+	width:980px;
+	padding:10px 0;
+	margin:10px 0 0 0;
+	text-align:left;
+	overflow:hidden;
+	display:block;
+	}
+*/
+#mainBanner {
+	clear: both;
+	width: 980px;
+	height: 129px;
+	margin: 0;
+	padding: 5px 0 0 0;
+}
+#bread {
+	margin: 20px 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0.857em;
+}
+#bread li {
+	display: inline;
+}
+/*---------------　　各ページのメインエリア　--------------*/
+.mainArea2 {
+	width: 907px;
+	margin: 20px auto;
+	padding: 0 0 30px 0;
+}
+.mainArea3 {
+	width: 907px;
+	margin: 20px auto;
+}
+.mainAreaL {
+	width: 720px;
+	margin: 0 0 0 3px;
+	padding: 0 0 30px 0;
+	float: left;
+}
+.mainAreaR {
+	background: #F3F3F0;
+	width: 230px;
+	margin: 0;
+	padding: 0 0 20px 0;
+	float: right;
+}
+/*アイコン*/
+.Look {
+	clear: both;
+	background: url(../images/index/arrow.jpg) left 3px no-repeat;
+	float: right;
+	margin: 0px;
+	padding: 0 0 5px 20px;
+}
+.Look2 {
+	background: url(../images/index/arrow.jpg) left 3px no-repeat;
+	padding: 0 15px 10px 20px;
+	float: right;
+}
+.Look3 {
+	clear: both;
+	background: url(../images/index/arrow.jpg) left 5px no-repeat;
+	float: left;
+	margin: 0 10px 5px 10px;
+	padding: 0 20px 5px 20px;
+}
+/* clearfix
+-------------------------------------------------------------------*/
+.fix {
+	display: inline-block;
+	min-height: 1%;
+}

@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------------------
+museumのスタイルです
+----------------------------------------------*/
+/*museum メイン部分*/
+#slider {
+clear:both;
+width:980px;
+height:85px;
+margin:10px auto 0 auto;
+padding:0;
+}
+#slideshow_container {
+width:980px;
+height:300px;
+}
+#mainArea {
+	clear:both;
+	width:980px;
+	height:100%;
+	padding:10px 0 ;
+	margin:10px 0 30px 0;
+	text-align:left;
+	overflow:hidden;
+	display:block;
+	background:#FFF;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+}
+.lefthand {
+	float:left;
+	}
+.righthand {
+	float:right;
+	}
+h2 {
+	margin:0;
+	font-weight:bold;
+	font-size:1.4em;
+	color:#fff;
+}
+h3 {
+	font-weight:bold;
+	font-size:1.2em;
+	background:url(../images/link/link01.jpg)left top no-repeat;
+	height:30px;
+	margin: 0 auto;
+	padding:5px 20px;
+	color:#FFF;
+	font-weight:bold;
+	}
+.textarea {
+	width:650px;
+	margin:10px 0 50px 0;
+	line-height:1.6em;
+	}
+.textarea li {
+	list-style:none;
+	background:url(../images/index/arrow.jpg) left center no-repeat;
+	padding:0 0 0 18px ;
+}
+.imgarea {
+	float:right;
+	}
+.imgarea img {
+	padding:5px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+}
+h4 {
+	margin:0 0 10px 0;
+	padding:0;
+}
+.banabox {
+	}
+.banabox img {
+	}
+.paddingR10	{
+	padding:10px;
+	}
+.Look {
+	clear:both;
+	background:url(../images/index/arrow.jpg) no-repeat;
+	float:right;
+	margin:10px;
+	padding:0 20px 5px 20px;
+	}
+.Look2 {
+	background:url(../images/index/arrow.jpg) no-repeat;
+	padding:3px 20px 10px 20px;
+	float:right;
+	}
+.Look3 {
+	clear:both;
+	background:url(../images/index/arrow.jpg) no-repeat;
+	float:left;
+	margin: 5px 10px;
+	padding:0 20px 5px 20px;
+	}
+.paddingTB {
+	padding:5px 0 0 0;
+	}
+.bordernone {
+	border:none;
+	}
+/*museum メイン部分	*/	

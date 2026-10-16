@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* font 16pxCSS */
+#Wrapper {
+font-size:16px;
+}
+#fontArea {
+background:url(../images/index/header03.png) no-repeat left top;
+}
+#header {
+font-size:14px;
+}
